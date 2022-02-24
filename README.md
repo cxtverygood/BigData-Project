@@ -1,23 +1,32 @@
 
 ## Project 1 - IMDB 
 
-learn to distinguish highly rated movies from low rated movies
+Learn to distinguish highly rated movies from low rated movies
 
 [IMDB Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/imdb)
 
-CSV files train/validation/test
+
 
 ### Data
 
+CSV files train/validation/test
+
+| tconst  |  primaryTitle | originalTitle | startYear | endYear | runtimeMinutes | numVotes | label |
+|---|---|---|---|---|---|---|---|
+
 tconst, primaryTitle, originalTitle, startYear, endYear, runtimeMinutes, numVotes, [label]
 
-directing.json
+`directing.json`
 
-tconst, director_id
 
-writing.json
+| tconst  |  director_id |
+|---|---|
 
-tconst, writer_id
+
+`writing.json`
+
+| tconst  |  writer_id |
+|---|---|
 
 ----
 
