@@ -7,14 +7,16 @@ Learn to distinguish highly rated movies from low rated movies
 
 
 
-### Data
+#### Training Data
 
-CSV files train/validation/test
+The primary files contain an identifier, as well as title, release, runtime and voting information for several movies. The label column denotes whether a movie was highly rated or not.
+
+`train-*.csv`
 
 | tconst  |  primaryTitle | originalTitle | startYear | endYear | runtimeMinutes | numVotes | label |
 |---|---|---|---|---|---|---|---|
 
-tconst, primaryTitle, originalTitle, startYear, endYear, runtimeMinutes, numVotes, [label]
+In addition, there are two files that contain information about directors and writers of the movies.
 
 `directing.json`
 
@@ -27,6 +29,16 @@ tconst, primaryTitle, originalTitle, startYear, endYear, runtimeMinutes, numVote
 
 | tconst  |  writer_id |
 |---|---|
+
+#### Validation & Test Data
+
+We provide validation and test data as input for the submissions. This data has the same format as the training data, but does not contain the corresponding label.
+
+`validation_hidden.csv` `test_hidden.csv`
+
+| tconst  |  primaryTitle | originalTitle | startYear | endYear | runtimeMinutes | numVotes | 
+|---|---|---|---|---|---|---|
+
 
 ----
 
