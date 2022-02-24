@@ -25,6 +25,9 @@ tconst, writer_id
 
 learn to identify helpful product reviews
 
+[Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/reviews)
+
+### Data
 
 product_id, product_parent, product_title, vine, verified_purchase, review_headline, review_body, review_date, marketplace_id, product_category_id
 
@@ -40,7 +43,11 @@ marketplace_id, name
 
 ---
 
-Duplicate Detection - learn to identify duplicate bibliography entries
+## Duplicate Detection - learn to identify duplicate bibliography entries
+
+[Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/dblp)
+
+### Data
 
 dblp-*.csv
 
