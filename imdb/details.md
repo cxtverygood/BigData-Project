@@ -1,5 +1,5 @@
 
-## Project 1 - IMDB 
+## Project - IMDB 
 
 The goal in this project is to train a binary classifier to distinguish highly rated movies from low rated movies.
 
