@@ -1,30 +1,4 @@
 
-
-
-----
-
-## Product Reviews 
-
-learn to identify helpful product reviews
-
-[Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/reviews)
-
-### Data
-
-product_id, product_parent, product_title, vine, verified_purchase, review_headline, review_body, review_date, marketplace_id, product_category_id
-
-
-category.json
-
-category_id, name
-
-
-marketplace.json
-
-marketplace_id, name
-
----
-
 ## Duplicate Detection - learn to identify duplicate bibliography entries
 
 [Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/dblp)
