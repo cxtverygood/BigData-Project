@@ -6,7 +6,7 @@ You can choose between three binary classification tasks:
 * [Reviews Project](reviews/) - learn to identify helpful product reviews
 * [DBLP Project](dblp/) - learn to identify duplicate entries in a bibliography
 
-Consult the [project page on Canvas](tbd) for detailed instructions on the scope and grading of the projects.
+Consult the [project page on Canvas](https://canvas.uva.nl/courses/28750/pages/projects) for detailed instructions on the scope and grading of the projects.
 
 ### Submitting predictions
 
@@ -22,6 +22,8 @@ must consist of either the string `True` or the string `False`, to denote the th
 In order to submit predictions for your team, you have to use our [submission server](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/). The access credentials for the submission server will be given out by the TAs in next week's lab.
 
 For each submission, the submission server will compute the accuracy on the validation set and the test set. However, only the accuracy on the validation set will be shown (and used to generate the leaderboard).
+
+For each project, there is a _random-baseline_ submission, which shows the accuracy achieved by random guessing, and a _ta-baseline_ submission, which shows the accuracy of a minimal submission created by one of the TAs.
 
 Each team can submit only five times per day.
 
