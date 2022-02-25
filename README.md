@@ -1,32 +1,32 @@
+### The Projects
 
-## Duplicate Detection - learn to identify duplicate bibliography entries
+You can choose between three binary classification tasks:
 
-[Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/dblp)
+* [IMDB Project](imdb/) - learn to identify highly rated movies
+* [Reviews Project](reviews/) - learn to identify helpful product reviews
+* [DBLP Project](dblp/) - learn to identify duplicate entries in a bibliography
 
-### Data
+Consult the [project page on Canvas](tbd) for detailed instructions on the scope and grading of the projects.
 
-dblp-*.csv
+### Submitting predictions
 
-pauthor, peditor, ptitle, pyear, paddress, ppublisher, pseries, pid, pkey, ptype_id, pjournal_id, pbooktitle_id, pjournalfull_id, pbooktitlefull_id
+#### How to generate predictions
 
-pbooktitle.json
+Each project contains two files `validation_hidden.csv` and `test_hidden.csv`, with the data for which your ML pipeline has to create predictions.
 
-pbooktitle_id, name
+In order to submit your predictions, you need to create two text files (one for the validation set and one for the test set). Each line in these files
+must consist of either the string `True` or the string `False`, to denote the the predicted class for the corresponding data item in the validation or test files.
 
-pbooktitlefull.json
+#### The submission server
 
-pbooktitlefull_id, name
+In order to submit predictions for your team, you have to use our [submission server](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/). The access credentials for the submission server will be given out by the TAs in next week's lab.
 
+For each submission, the submission server will compute the accuracy on the validation set and the test set. However, only the accuracy on the validation set will be shown (and used to generate the leaderboard).
 
-pjournal.json
+Each team can submit only five times per day.
 
-pjournal_id, name
+ * [IMDB Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/imdb)
+ * [Reviews Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/reviews)
+ * [DBLP Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/dblp)
 
-
-pjournalfull.json
-
-pjournalfull_id, name
-
-
-train.csv / validation_hidden.csv / test_hidden.csv
-key1,key2,[label]
+Please contact your TA in case you have further questions.
