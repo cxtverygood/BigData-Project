@@ -27,8 +27,8 @@ For each project, there is a _random-baseline_ submission, which shows the accur
 
 Each team can submit only five times per day.
 
- * [IMDB Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/imdb)
- * [Reviews Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/reviews)
- * [DBLP Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/dblp)
+ * [IMDB Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/competitions/imdb)
+ * [Reviews Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/competitions/reviews)
+ * [DBLP Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/competitions/dblp)
 
 Please contact your TA in case you have further questions.
