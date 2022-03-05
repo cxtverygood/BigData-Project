@@ -3,7 +3,7 @@
 
 The goal in this project is to train a binary classifier to distinguish highly rated movies from low rated movies.
 
-Submissions for this project will be shown on the [IMDB Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/imdb).
+Submissions for this project will be shown on the [IMDB Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/competitions/imdb).
 
 
 #### Training Data
