@@ -37,13 +37,11 @@ Additional details are contained in the following .json fiels.
 | pjournalfull_id | name |
 |---|---|
 
-train.csv / validation_hidden.csv / test_hidden.csv key1,key2,[label]
 
+`train.csv`
 
-`train-*.csv`
-
-| tconst  |  primaryTitle | originalTitle | startYear | endYear | runtimeMinutes | numVotes | label |
-|---|---|---|---|---|---|---|---|
+| key1 | key2 | label |
+|---|---|---|
 
 In addition, there are two files that contain information about directors and writers of the movies.
 
@@ -65,5 +63,6 @@ We provide validation and test data as input for the submissions. This data has 
 
 `validation_hidden.csv` `test_hidden.csv`
 
-| tconst  |  primaryTitle | originalTitle | startYear | endYear | runtimeMinutes | numVotes | 
-|---|---|---|---|---|---|---|
+
+| key1 | key2 |
+|---|---|
