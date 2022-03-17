@@ -43,19 +43,6 @@ Additional details are contained in the following .json fiels.
 | key1 | key2 | label |
 |---|---|---|
 
-In addition, there are two files that contain information about directors and writers of the movies.
-
-`directing.json`
-
-
-| tconst  |  director_id |
-|---|---|
-
-
-`writing.json`
-
-| tconst  |  writer_id |
-|---|---|
 
 #### Validation & Test Data
 
