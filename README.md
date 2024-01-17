@@ -6,7 +6,7 @@ You can choose between three binary classification tasks:
 * [Reviews Project](reviews/) - learn to identify helpful product reviews
 * [DBLP Project](dblp/) - learn to identify duplicate entries in a bibliography
 
-Consult the [project page on Canvas](https://canvas.uva.nl/courses/28750/pages/projects) for detailed instructions on the scope and grading of the projects.
+Consult the [project page on Canvas](https://canvas.uva.nl/courses/42586/pages/projects) for detailed instructions on the scope and grading of the projects.
 
 ### Submitting predictions
 
