@@ -19,7 +19,7 @@ must consist of either the string `True` or the string `False`, which denote the
 
 #### The submission server
 
-In order to submit predictions for your team, you have to use our [submission server](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/). The access credentials for the submission server will be given out by the TAs in next week's lab.
+In order to submit predictions for your team, you have to use our [submission server](http://big-data-competitions.swedencentral.cloudapp.azure.com:8080/). The access credentials for the submission server will be given out by the TAs in next week's lab.
 
 For each submission, the submission server will compute the accuracy on the validation set and the test set. However, only the accuracy on the validation set will be shown (and used to generate the leaderboard).
 
@@ -27,8 +27,8 @@ For each project, there is a _random-baseline_ submission, which shows the accur
 
 Each team can submit only five times per day.
 
- * [IMDB Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/competitions/imdb)
- * [Reviews Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/competitions/reviews)
- * [DBLP Leaderboard](http://big-data-competitions.westeurope.cloudapp.azure.com:8080/competitions/dblp)
+ * [IMDB Leaderboard](http://big-data-competitions.swedencentral.cloudapp.azure.com:8080/competitions/imdb)
+ * [Reviews Leaderboard](http://big-data-competitions.swedencentral.cloudapp.azure.com:8080/competitions/reviews)
+ * [DBLP Leaderboard](http://big-data-competitions.swedencentral.cloudapp.azure.com:8080/competitions/dblp)
 
 Please contact your TA in case you have further questions.
